@@ -5,6 +5,8 @@ Master: [![Build Status](https://travis-ci.org/PHPOffice/PHPExcel.png?branch=mas
 
 Develop: [![Build Status](https://travis-ci.org/PHPOffice/PHPExcel.png?branch=develop)](http://travis-ci.org/PHPOffice/PHPExcel)
 
+[![Join the chat at https://gitter.im/PHPOffice/PHPExcel](https://img.shields.io/badge/GITTER-join%20chat-green.svg)](https://gitter.im/PHPOffice/PHPExcel)
+
 ## File Formats supported
 
 ### Reading
@@ -31,15 +33,13 @@ Develop: [![Build Status](https://travis-ci.org/PHPOffice/PHPExcel.png?branch=de
  * PHP extension php_xml enabled
  * PHP extension php_gd2 enabled (optional, but required for exact column width autocalculation)
 
+*Note:* PHP 5.6.29 has [a bug](https://bugs.php.net/bug.php?id=73530) that
+prevents SQLite3 caching to work correctly. Use a newer (or older) versions of
+PHP if you need SQLite3 caching.
 
 ## Want to contribute?
 
-If you would like to contribute, here are some notes and guidlines:
- - All development happens on the develop branch, so it is always the most up-to-date
- - The master branch only contains tagged releases
- - If you are going to be submitting a pull request, please branch from develop, and submit your pull request back to the develop branch
- - [Helpful article about forking](https://help.github.com/articles/fork-a-repo/ "")
- - [Helpful article about pull requests](https://help.github.com/articles/using-pull-requests/ "")
+PHPExcel developement for next version has moved under its new name PhpSpreadsheet. So please head over to [PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet#want-to-contribute) to contribute patches and features.
 
 
 ## License
